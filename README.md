@@ -1,5 +1,5 @@
 # Machine-Learning-Reings
-  Proyecto de Machine-Learning usando Neuronal-Network para resolver una partida de Reings generica y aleatoria usando aprendizaje
+  Proyecto de Machine-Learning usando Neuronal-Network para resolver una partida de Reings generica y aleatoria usando aprendizaje por Refuerzo
 
   Reings es un videojuego de cartas de 1 solo jugador donde el objetivo final es tener los suficientes puntos de atributos
 como para jugar la carta de FIN al final de la partida.
@@ -16,4 +16,4 @@ tambien existen cartas que te haran perder grandes valores de atributos si se ac
 
  El juego cuenta con una BD de 200 cartas con sus propiedades fijas, cada turno hasta el 99 a la maquina se le enseñara una carta y tendra
 la opcion de rechazarla o aceptarla y co ello cambiar los valores de sus 4 atributos, al no conocer las variaciones que provoca cada carta tendra que memorizar
-no solo las cambios de atributos sino las consecuencias que tiene aceptar o no ciertas cartas.Para este proyecto se utilizara aprendizaje por refuerzo, se usara como estimulos positivos el mantener valores de atributos cercanos a 6 y como estimulos negativos el aceptar cartas que provocan consecuencias negativas mas adelante o el no aceptar la carta FIN.
+no solo las cambios de atributos sino las consecuencias que tiene aceptar o no ciertas cartas. Para este proyecto se utilizara aprendizaje por refuerzo, se usara como estimulos positivos el mantener valores de atributos cercanos a 7 y como estimulos negativos el aceptar cartas que provocan consecuencias negativas mas adelante o el no aceptar la carta FIN.
